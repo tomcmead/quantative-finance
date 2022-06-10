@@ -43,4 +43,16 @@ float enterpriseValue(float MC, float totalDebt, float C){
     return MC + totalDebt - C;
 }
 
+/*************************************************************************//**
+* @brief Return on Investment (ROI) is a performance measure used to evaluate 
+*        the efficiency or profitability of an investment or compare the efficiency 
+*        of a number of different investments. ROI tries to directly measure the 
+*        amount of return on a particular investment, relative to the investment’s cost.
+* @param float currValOfInvestment
+* @param float costOfInvestment
+* @return Return on Investment
+*****************************************************************************/
+float returnOnInvestment(float currValOfInvestment, float costOfInvestment){
+    return (currValOfInvestment-costOfInvestment) / costOfInvestment;
+}
 

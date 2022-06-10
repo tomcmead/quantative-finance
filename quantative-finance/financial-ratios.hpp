@@ -11,5 +11,6 @@
 ----------------------------------------------------------------------------*/
 float weightedAverageCostOfCapital(float E, float D, float Re, float Rd, float Tc);
 float enterpriseValue(float MC, float totalDebt, float C);
+float returnOnInvestment(float currValOfInvestment, float costOfInvestment);
 
 #endif // _FINANCIAL_RATIOS_H
