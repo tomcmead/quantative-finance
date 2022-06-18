@@ -13,5 +13,6 @@ float weightedAverageCostOfCapital(float E, float D, float Re, float Rd, float T
 float enterpriseValue(float MC, float totalDebt, float C);
 float returnOnInvestment(float currValOfInvestment, float costOfInvestment);
 float workingCapital(float totCurrAssets, float totalCurrLiabilities);
+float quickRatio(float cashAndEquivalents, float marketSecurities, float accountReceivable, float currentLiabilities);
 
 #endif // _FINANCIAL_RATIOS_H
