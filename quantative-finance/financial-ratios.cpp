@@ -70,10 +70,10 @@ float workingCapital(float totCurrAssets, float totalCurrLiabilities){
 }
 
 /*************************************************************************//**
-* @brief The Working Capital (AKA current ratio) is a liquidity ratio that measures 
-*        a company’s ability to pay short-term obligations or those due within one year.  
-*        It tells investors and analysts how a company can maximize the current 
-*        assets on its balance sheet to satisfy its current debt and other payables.
+* @brief The quick ratio is an indicator of a company’s short-term liquidity position 
+*        and measures a company’s ability to meet its short-term obligations with its
+*        most liquid assets. The quick ratio measures the dollar amount of liquid assets
+*        available against the dollar amount of current liabilities of a company.
 * @param float cashAndEquivalents
 * @param float marketSecurities
 * @param float accountReceivable 
