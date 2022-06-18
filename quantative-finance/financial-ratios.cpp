@@ -56,3 +56,15 @@ float returnOnInvestment(float currValOfInvestment, float costOfInvestment){
     return (currValOfInvestment-costOfInvestment) / costOfInvestment;
 }
 
+/*************************************************************************//**
+* @brief The Working Capital (AKA current ratio) is a liquidity ratio that measures 
+*        a company’s ability to pay short-term obligations or those due within one year.  
+*        It tells investors and analysts how a company can maximize the current 
+*        assets on its balance sheet to satisfy its current debt and other payables.
+* @param float totCurrAssets
+* @param float totalCurrLiabilities
+* @return Working Capitial Ratio
+*****************************************************************************/
+float workingCapital(float totCurrAssets, float totalCurrLiabilities){
+    return totCurrAssets / totalCurrLiabilities;
+}
