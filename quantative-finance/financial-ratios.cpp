@@ -83,3 +83,17 @@ float workingCapital(float totCurrAssets, float totalCurrLiabilities){
 float quickRatio(float cashAndEquivalents, float marketSecurities, float accountReceivable, float currentLiabilities){
     return (cashAndEquivalents+marketSecurities+accountReceivable) / currentLiabilities;
 }
+
+/*************************************************************************//**
+* @brief The term debt ratio refers to a financial ratio that measures the extent 
+*        of a company’s leverage. It can be interpreted as the proportion of a 
+*        company’s assets that are financed by debt. A ratio below 1 means that a 
+*        greater portion of a company's assets is funded by equity, above 1 
+*        represents a company's debt is funded by assets.
+* @param float totalDebt
+* @param float totalAssets
+* @return Debt Ratio
+*****************************************************************************/
+float debtRatio(float totalDebt, float totalAssets){
+    return totalDebt / totalAssets;
+}
