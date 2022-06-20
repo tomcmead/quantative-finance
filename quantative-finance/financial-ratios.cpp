@@ -97,3 +97,15 @@ float quickRatio(float cashAndEquivalents, float marketSecurities, float account
 float debtRatio(float totalDebt, float totalAssets){
     return totalDebt / totalAssets;
 }
+
+/*************************************************************************//**
+* @brief Equity ratio uses a company’s total assets (current and non-current) and 
+*        total equity to help indicate how leveraged the company is: how effectively
+*        they fund asset requirements without using debt.
+* @param float totalEquity
+* @param float totalAssets
+* @return Equity Ratio
+*****************************************************************************/
+float equityRatio(float totalEquity, float totalAssets){
+    return totalEquity / totalAssets;
+}

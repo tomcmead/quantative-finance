@@ -15,5 +15,6 @@ float returnOnInvestment(float currValOfInvestment, float costOfInvestment);
 float workingCapital(float totCurrAssets, float totalCurrLiabilities);
 float quickRatio(float cashAndEquivalents, float marketSecurities, float accountReceivable, float currentLiabilities);
 float debtRatio(float totalDebt, float totalAssets);
+float equityRatio(float totalEquity, float totalAssets);
 
 #endif // _FINANCIAL_RATIOS_H
