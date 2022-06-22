@@ -109,3 +109,15 @@ float debtRatio(float totalDebt, float totalAssets){
 float equityRatio(float totalEquity, float totalAssets){
     return totalEquity / totalAssets;
 }
+
+/*************************************************************************//**
+* @brief The debt-to-equity (D/E) ratio compares a company’s total liabilities to
+*        its shareholder equity and can be used to evaluate how much leverage a 
+*        company is using. Higher-leverage ratios indicates higher risk.
+* @param float totalLiabilities
+* @param float totalShareholderEquity
+* @return Debt to Equity Ratio
+*****************************************************************************/
+float debtToEquityRatio(float totalLiabilities, float totalShareholderEquity){
+    return totalLiabilities / totalShareholderEquity;
+}
