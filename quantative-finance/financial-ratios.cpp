@@ -121,3 +121,16 @@ float equityRatio(float totalEquity, float totalAssets){
 float debtToEquityRatio(float totalLiabilities, float totalShareholderEquity){
     return totalLiabilities / totalShareholderEquity;
 }
+
+
+/*************************************************************************//**
+* @brief The interest coverage ratio is used to measure how well a firm can pay 
+*        the interest due on outstanding debt. The formula to determine a company's 
+*        riskiness relative to its current debt or for future borrowing. 
+* @param float earningsBeforeTaxesAndInterest
+* @param float interestExpense
+* @return Interest Coverage Ratio
+*****************************************************************************/
+float interestCoverageRatio(float earningsBeforeTaxesAndInterest, float interestExpense){
+    return earningsBeforeTaxesAndInterest / interestExpense;
+}

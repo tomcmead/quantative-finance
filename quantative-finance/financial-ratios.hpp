@@ -17,5 +17,6 @@ float quickRatio(float cashAndEquivalents, float marketSecurities, float account
 float debtRatio(float totalDebt, float totalAssets);
 float equityRatio(float totalEquity, float totalAssets);
 float debtToEquityRatio(float totalLiabilities, float totalShareholderEquity);
+float interestCoverageRatio(float earningsBeforeTaxesAndInterest, float interestExpense);
 
 #endif // _FINANCIAL_RATIOS_H
