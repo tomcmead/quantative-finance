@@ -5,7 +5,7 @@
 /*----------------------------------------------------------------------------
   include files
 ----------------------------------------------------------------------------*/
-#include <quantative-finance/financial-ratios.hpp>
+#include <financial-ratios.hpp>
 
 /*----------------------------------------------------------------------------
   public functions
@@ -131,6 +131,19 @@ float debtToEquityRatio(float totalLiabilities, float totalShareholderEquity){
 * @param float interestExpense
 * @return Interest Coverage Ratio
 *****************************************************************************/
-float interestCoverageRatio(float earningsBeforeTaxesAndInterest, float interestExpense){
+float interestCoverageRatio(float earningsBeforeTaxesAndInterest, float interestExpense)
+{
     return earningsBeforeTaxesAndInterest / interestExpense;
+}
+
+/*************************************************************************//**
+* @brief Gross profit margin is a metric analysts use to assess a company's financial 
+*        health by calculating the amount of money left over from product sales after
+*        subtracting the cost of goods sold.
+* @param float netSales
+* @param float costOfGoodsSold
+* @return Gross Profit Margin
+*****************************************************************************/
+float grossProfitMargin(float netSales, float costOfGoodsSold){
+    return (netSales-costOfGoodsSold) / netSales;
 }
