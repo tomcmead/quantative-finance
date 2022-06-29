@@ -147,3 +147,15 @@ float interestCoverageRatio(float earningsBeforeTaxesAndInterest, float interest
 float grossProfitMargin(float netSales, float costOfGoodsSold){
     return (netSales-costOfGoodsSold) / netSales;
 }
+
+/*************************************************************************//**
+* @brief Return on assets indicates how profitable a company is in relation to its 
+*        total assets. Corporate management, analysts, and investors can use ROA to
+*        determine how efficiently a company uses its assets to generate a profit
+* @param float netIncome
+* @param float totalAssets
+* @return Return On Assets
+*****************************************************************************/
+float returnOnAssets(float netIncome, float totalAssets){
+    return netIncome / totalAssets;
+}
