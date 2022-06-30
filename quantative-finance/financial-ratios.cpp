@@ -159,3 +159,15 @@ float grossProfitMargin(float netSales, float costOfGoodsSold){
 float returnOnAssets(float netIncome, float totalAssets){
     return netIncome / totalAssets;
 }
+
+/*************************************************************************//**
+* @brief Return on equity (ROE) is a measure of financial performance calculated 
+*        by dividing net income by shareholders' equity. ROE is a gauge of a 
+*        corporation's profitability and how efficient it is in generating profits.
+* @param float netIncome
+* @param float averageShareholdersEquity
+* @return Return On Equity
+*****************************************************************************/
+float returnOnEquity(float netIncome, float averageShareholdersEquity){
+    return netIncome / averageShareholdersEquity;
+}

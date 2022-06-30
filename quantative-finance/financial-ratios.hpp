@@ -20,5 +20,6 @@ float debtToEquityRatio(float totalLiabilities, float totalShareholderEquity);
 float interestCoverageRatio(float earningsBeforeTaxesAndInterest, float interestExpense);
 float grossProfitMargin(float netSales, float costOfGoodsSold);
 float returnOnAssets(float netIncome, float totalAssets);
+float returnOnEquity(float netIncome, float averageShareholdersEquity);
 
 #endif // _FINANCIAL_RATIOS_H
