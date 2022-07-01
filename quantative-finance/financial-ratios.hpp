@@ -21,5 +21,6 @@ float interestCoverageRatio(float earningsBeforeTaxesAndInterest, float interest
 float grossProfitMargin(float netSales, float costOfGoodsSold);
 float returnOnAssets(float netIncome, float totalAssets);
 float returnOnEquity(float netIncome, float averageShareholdersEquity);
+float dividendYield(float annualDividendsPerShare, float pricePerShare);
 
 #endif // _FINANCIAL_RATIOS_H

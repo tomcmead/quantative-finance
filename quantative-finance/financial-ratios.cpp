@@ -171,3 +171,14 @@ float returnOnAssets(float netIncome, float totalAssets){
 float returnOnEquity(float netIncome, float averageShareholdersEquity){
     return netIncome / averageShareholdersEquity;
 }
+
+/*************************************************************************//**
+* @brief Dividend yield, expressed as a percentage, shows how much a company pays 
+*        out in dividends each year relative to its stock price
+* @param float annualDividendsPerShare
+* @param float pricePerShare
+* @return Return On Equity
+*****************************************************************************/
+float dividendYield(float annualDividendsPerShare, float pricePerShare){
+    return annualDividendsPerShare / pricePerShare;
+}
