@@ -182,3 +182,16 @@ float returnOnEquity(float netIncome, float averageShareholdersEquity){
 float dividendYield(float annualDividendsPerShare, float pricePerShare){
     return annualDividendsPerShare / pricePerShare;
 }
+
+/*************************************************************************//**
+* @brief Dividend payout ratio is ratio of the total amount of dividends paid out to
+*        shareholders relative to the net income of the company. It is the percentage
+*        of earnings paid to shareholders via dividends. The rest is retained by the 
+*        company to pay off debt or to reinvest in core operations
+* @param float dividendsPaid
+* @param float netIncome
+* @return Dividend Payout Ratio
+*****************************************************************************/
+float dividendPayoutRatio(float dividendsPaid, float netIncome){
+    return dividendsPaid / netIncome;
+}
