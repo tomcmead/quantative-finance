@@ -4,8 +4,8 @@
 # Quantative Finance
 
 <!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
+
+  ## Table of Contents
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
@@ -16,22 +16,14 @@
     </li>
     <li><a href="#contributing">Contributing</a></li>
   </ol>
-</details>
+
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Quantative Finance is the use of mathematical models to analyse financial markets and securities. This repo provides features for various pricing models of derivative securitites, financial ratios and risk management. These funcitionalites can be applied to portfolio management applications.
+Quantative Finance is the use of mathematical models to analyse financial markets and securities. This repo provides features for various pricing models of derivative securities, financial ratios and risk management. These funcitionalites can be applied to portfolio management applications.
 
 ### Current Implementation
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-### Todo
-  * Derivatives
-    * One-Factor Black-Scholes Model
-    * Binomial Model
-    * Correlation Options
   * Financial Ratios
     * Weighted Average Cost of Capital (WACC)
     * Enterprise Value (EV)
@@ -52,6 +44,13 @@ Quantative Finance is the use of mathematical models to analyse financial market
     * Dividend Ratios
       * Dividend Yield
       * Dividend Payout Ratio
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### Todo
+  * Derivatives
+    * One-Factor Black-Scholes Model
+    * Binomial Model
+    * Correlation Options
   * Risk Management
 
 <p align="right">(<a href="#top">back to top</a>)</p>
